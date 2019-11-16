@@ -12,7 +12,7 @@
     <artifactId>spring-counter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-counter</name>
-    <description>Testinc conrurrent DB couting</description>
+    <description>Testing concurrent DB counting</description>
 
     <properties>
         <java.version>1.8</java.version>

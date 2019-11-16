@@ -6,17 +6,16 @@ import javax.persistence.*;
 
 @Entity
 @ToString
-@Table(name="taskjpa")
-public class TaskJpa {
+public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private long counter;
 
-    private TaskJpa() { }
+    private Task() { }
 
-    TaskJpa(long counter) {
+    Task(long counter) {
         this.counter = counter;
     }
 
